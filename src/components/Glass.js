@@ -12,7 +12,7 @@ class Glass extends Component {
     render(){
         return(
             <div>
-                {this.props.text}
+                GLASS: {this.props.text}
             </div>
         );
     }

@@ -36,6 +36,8 @@ class Bottle extends Component {
                     text={this.state.text}
                     updateText={this.updateBottleState}
                 />
+
+                BOTTLE STATE: {this.state.text}
             </div>
         );
     }
